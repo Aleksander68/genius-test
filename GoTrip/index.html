@@ -1,0 +1,231 @@
+<!-- Сообщаем браузеру как стоит обрабатывать эту страницу -->
+<!DOCTYPE html>
+<!-- Оболочка документа, указываем язык содержимого -->
+<html lang="en">
+  <!-- Заголовок страницы, контейнер для других важных данных (не отображается) -->
+  <head>
+    <!-- Заголовок страницы в браузере -->
+    <title>GoTrip</title>
+    <!-- Адаптив -->
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <!-- Подключаем CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- Кодировка страницы -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"
+      integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <meta charset="UTF-8" />
+  </head>
+  <!-- Отображаемое тело страницы -->
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <div class="container">
+          <div class="header__wrapper">
+            <div class="header__inner">
+              <div class="header__logo">GoTrip</div>
+              <nav class="header__menu">
+                <ul class="nav__list">
+                  <li class="nav__link">
+                    <a class="link active" href="#">Home</a>
+                  </li>
+                  <li class="nav__link">
+                    <a class="link" href="#">Services</a>
+                  </li>
+                  <li class="nav__link">
+                    <a class="link" href="#">Pricing</a>
+                  </li>
+                  <li class="nav__link">
+                    <a class="link" href="#">Contact</a>
+                  </li>
+                </ul>
+              </nav>
+              <div class="header__sig-in">
+                <div class="header__signup"><a href="#">Sign up</a></div>
+                <div class="header__login btn"><a href="#">Login</a></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+      <main class="main">
+        <section class="intro">
+          <div class="container">
+            <div class="intro__inner">
+              <div class="intro__body">
+                <div class="intro__suptitle">exsplore the world</div>
+                <h1 class="intro__title">
+                  Explore The Natural Beauty Of Halmahera With Us
+                </h1>
+                <p class="intro__text">
+                  explore the beauty of god's earth in a beautiful forest and
+                  have fun
+                </p>
+                <a href="#" class="intro__btn btn">Exsplore Now</a>
+              </div>
+              <div class="intro__foto">
+                <img
+                  src="img/woomen-intro.png"
+                  alt="woomen"
+                  class="intro__img"
+                />
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="choice">
+          <div class="container__wide">
+            <div class="choice__inner">
+              <div class="choice__content">
+                <h3 class="choice__suptitle">Choice Of</h3>
+                <h2 class="choice__title">Destinations</h2>
+                <p class="choice__text">
+                  explore the beauty of god's earth in a beautiful forest and
+                  have fun
+                </p>
+                <a href="#" class="choice__btn btn">Exsplore Now</a>
+              </div>
+              <div class="choice__slider" data-aos="fade-up-left">
+                <div class="swiper__container">
+                  <div class="image-slider swiper">
+                    <!-- Additional required wrapper -->
+                    <div class="image-slider__wraper swiper-wrapper">
+                      <!-- Slides -->
+                      <div class="image-slider__slide swiper-slide">
+                        <div class="image-slider__img">
+                          <img src="img/choice-2.jpg" alt="картинка" />
+                        </div>
+                      </div>
+                      <div class="image-slider__slide swiper-slide">
+                        <div class="image-slider__img">
+                          <img src="img/choice-1.jpg" alt="картинка" />
+                        </div>
+                      </div>
+                      <div class="image-slider__slide swiper-slide">
+                        <div class="image-slider__img">
+                          <img src="img/choice-3.jpg" alt="картинка" />
+                        </div>
+                      </div>
+                      <div class="image-slider__slide swiper-slide">
+                        <div class="image-slider__img">
+                          <img src="img/choice-2.jpg" alt="картинка" />
+                        </div>
+                      </div>
+                      <div class="image-slider__slide swiper-slide">
+                        <div class="image-slider__img">
+                          <img src="img/choice-1.jpg" alt="картинка" />
+                        </div>
+                      </div>
+                      <div class="image-slider__slide swiper-slide">
+                        <div class="image-slider__img">
+                          <img src="img/choice-3.jpg" alt="картинка" />
+                        </div>
+                      </div>
+                    </div>
+                    <!-- If we need navigation buttons -->
+                    <div class="swiper-button-prev"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="what">
+          <div class="container">
+            <div class="what__inner">
+              <div class="what__foto">
+                <img src="img/What.jpg" alt="foto" class="what__img" />
+              </div>
+              <div class="what__content" data-aos="fade-up-left">
+                <h3 class="what__title">What do customers say about us?</h3>
+                <div class="what__about">
+                  <img src="img/What-1.png" alt="" class="what__about__img" />
+                  <div class="what__info">
+                    <p class="what__soname">Alpanasap</p>
+                    <p class="what__name">Japung, Indonesia</p>
+                  </div>
+                </div>
+                <p class="what__text">
+                  Very satisfying service makes it comfortable, a beautiful
+                  place in the world.
+                </p>
+                <div class="what__stars">
+                  <img src="img/stars-rating.svg" alt="stars" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="start">
+          <div class="container">
+            <div class="start__inner" data-aos="fade-up-right">
+              <h2 class="start__title">
+                Prepare Yourself And <br />
+                Start Exploring With Us.
+              </h2>
+              <p class="start__text">
+                There's the best discount for you today.
+              </p>
+              <button class="start__btn btn">Get Started</button>
+              <img src="img/cta-el-01.svg" alt="decor" class="start__img-1" />
+              <img src="img/cta-el-02.svg" alt="decor" class="start__img-2" />
+            </div>
+          </div>
+        </section>
+      </main>
+      <footer class="footer">
+        <div class="container">
+          <div class="footer__inner">
+            <div class="footer__logo">GoTrip</div>
+            <nav class="footer__menu">
+              <ul class="nav__list">
+                <li class="nav__link">
+                  <a class="link active" href="#">Home</a>
+                </li>
+                <li class="nav__link">
+                  <a class="link" href="#">Services</a>
+                </li>
+                <li class="nav__link">
+                  <a class="link" href="#">Pricing</a>
+                </li>
+                <li class="nav__link">
+                  <a class="link" href="#">Contact</a>
+                </li>
+              </ul>
+            </nav>
+            <div class="footer__sig-in">
+              <div class="footer__signup"><a href="#">Sign up</a></div>
+              <div class="footer__login btn"><a href="#">Login</a></div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"
+      integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
